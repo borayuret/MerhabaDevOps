@@ -39,7 +39,7 @@ public class KisiController {
     @DeleteMapping("/kisi")
     public String kisiSil()
     {
-        return "kişi silinecek.";
+        return "kişiler silinecek.";
     }
 
 }
