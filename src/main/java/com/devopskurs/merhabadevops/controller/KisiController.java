@@ -19,6 +19,20 @@ public class KisiController {
         return "Merhaba DevOps";
     }
 
+
+    @GetMapping("/deneme")
+    public String deneme()
+    {
+        int sayi=1;
+        System.out.println(sayi);
+
+//        Kisi kisi = null;
+//
+//        System.out.println(kisi.getAd());
+
+        return "deneme";
+    }
+
     @GetMapping("/kisiler")
     public List<Kisi> getKisiler()
     {
